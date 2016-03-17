@@ -18,7 +18,7 @@ var fit_artboard = function (context) {
   }
 };
 
-var select_prev = function (context) {
+var select_next = function (context) {
   var doc = context.document;
   var selection = context.selection;
   var page = [doc currentPage];
@@ -66,7 +66,7 @@ var select_prev = function (context) {
   }
 };
 
-var select_next = function (context) {
+var select_prev = function (context) {
   var doc = context.document;
   var selection = context.selection;
   var page = [doc currentPage];
